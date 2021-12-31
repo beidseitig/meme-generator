@@ -4,9 +4,26 @@
     box-sizing: border-box;
 }
 
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#meme-insert {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
 #text-input {
     display: block;
     margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #meme-image {
@@ -17,9 +34,9 @@
 
 #meme-text {
     font-family: 'Times New Roman', Times, serif;
-    color: purple;
+    color: white;
     text-shadow: 5px 5px 5px black;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
     word-wrap: break-word;
     position: absolute;
@@ -45,4 +62,6 @@ img {
     height: 400px;
     position: relative;
     background-color: white;
+    margin-right: auto;
+    margin-left: auto;
 }
