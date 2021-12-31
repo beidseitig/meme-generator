@@ -10,6 +10,7 @@ function addText () {
 textInput.addEventListener('input', addText);
 
 function addMemeImage () {
+    // https://www.webtrickshome.com/forum/how-to-display-uploaded-image-in-html-using-javascript
 	image.src = URL.createObjectURL(event.target.files[0]);
 }
 
