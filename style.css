@@ -30,6 +30,7 @@
     object-fit: fill;
     /*Essa parte que faz com que a imagem fique do espaço do container*/
     width: 100%;
+    height: 100%;
 }
 
 #meme-text {
@@ -64,4 +65,12 @@ img {
     background-color: white;
     margin-right: auto;
     margin-left: auto;
+}
+
+#buttons {
+    margin-right: auto;
+    margin-left: auto;
+    /*Centraliza os botões*/
+    width: fit-content;
+    margin-bottom: 5px;
 }
