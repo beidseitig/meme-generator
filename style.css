@@ -27,7 +27,7 @@
 }
 
 #meme-image {
-    object-fit: fill;
+    object-fit: cover;
     /*Essa parte que faz com que a imagem fique do espaço do container*/
     width: 100%;
     height: 100%;
@@ -93,4 +93,18 @@ img {
 #normal {
     background-color: black;
     color: white;
+}
+
+#memes {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+  
+.memeImages {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: solid black 1px;
 }
