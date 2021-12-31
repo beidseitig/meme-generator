@@ -27,7 +27,7 @@
 }
 
 #meme-image {
-    object-fit: cover;
+    object-fit: fill;
     /*Essa parte que faz com que a imagem fique do espaço do container*/
     width: 100%;
 }
