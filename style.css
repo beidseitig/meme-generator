@@ -1,0 +1,22 @@
+* {
+    margin: 15px;
+}
+
+#meme-image-container {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+#meme-text {
+    
+}
+
+#text-input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#meme-image-container {
+    position: relative;
+}
